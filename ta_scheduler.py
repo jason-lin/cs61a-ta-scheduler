@@ -43,6 +43,8 @@ SECTION_CAPS = {
         9: 2,
         10: 1
 }
+
+# Not used
 OH_TO_TIMES = {
         0: "M 11",
         1: "M 12",
