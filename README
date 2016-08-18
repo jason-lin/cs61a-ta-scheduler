@@ -1,0 +1,11 @@
+Run the scheduler with the command:
+
+python ta_scheduler.py -s in.csv out.csv
+
+The in.csv file should be in the format:
+
+|Name| |Number of sections| |section 1 preference| |section 2 preference| ... |section n preference|
+
+where section 1 is the most desired and section n is the least desired. The section number should correspond
+to the keys in the SECTION_TO_TIMES dictionary in the ta_scheduler.py file. So for example, if a TA wants
+T/Th 12:30-2PM, you'd put down 2 in the CSV file column.
