@@ -18,7 +18,7 @@ The `in.csv` file should be in the format:
 
     |Name| |Number of sections to be assigned to| |Section 1 preference| |Section 2 preference| ... |Section n preference|
 
-where section 1 is the most desired and section `n` is the least desired. The section number should correspond to the keys in the `SECTION_TO_TIMES` dictionary at the top of the `ta_scheduler.py` file. So for example, if a TA wants T/Th 12:30-2PM, you'd put down 2 in the CSV file column.
+where section 1 is the most desired and section `n` is the least desired. The section number should correspond to the keys in the `SECTION_TO_TIMES` dictionary at the top of the `ta_scheduler.py` file. So for example, if a TA in `example_in.csv` wants T/Th 12:30-2PM, you'd put down 2 in the CSV file column.
 
 The `out.csv` file has the following format:
 
